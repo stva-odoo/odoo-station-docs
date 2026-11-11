@@ -1,0 +1,1 @@
+adb shell "am start -n com.odoo.mobile.station/com.odoo.station.provisioning.AdbCommandActivity --es database_url 'mycompany.odoo.com' --es kiosk_url 'https://mycompany.odoo.com/pos-self/1' --es pin '1234' --ez stay_in_app true"
